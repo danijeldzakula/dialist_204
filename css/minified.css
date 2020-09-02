@@ -7109,7 +7109,7 @@ a {
 .block6 .bottom-block .item .form-block {
     width: 100%;
     float: left;
-    height: 330px;
+    height: 280px;
     background: #fff;
     -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.28);
     -moz-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.28);
@@ -7153,19 +7153,63 @@ a {
     margin-left: 180px;
 }
 .block6 .bottom-block .item:nth-child(1) .form-block {
-    height: 300px;
+    height: 280px;
 }
 .block6 .product {
     width: 100%;
     float: left;
     margin-top: 10px;
-    padding-left: 320px;
 }
 .block7 {
     width: 100%;
     float: left;
     min-height: 500px;
 }
+
+.map-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.map-title span {
+    display: block;
+    padding: 0.25em;
+    margin-bottom: 7px;
+    background-color:rgba(255,255,255,.5);
+    border-radius: 5px;
+}
+
+.maps__bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;       
+}
+
+.maps__bg .map-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    font-size: 24px; 
+    color: #00bbc5;
+}
+
+@media only screen and (min-width: 768px) {
+    .maps__bg .map-title {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .maps__bg .map-title {
+        font-size: 3vw;
+    }
+}
+
 .block7 .title {
     width: 100%;
     float: left;
@@ -7228,11 +7272,12 @@ a {
 .block7 .map-block {
     width: 100%;
     float: left;
-    height: 211px;
-    margin-top: -30px;
-    background: url(../img/map.png) no-repeat center top;
+    height: 400px;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     text-align: center;
-    padding-top: 83px;
     font-family: Roboto;
     font-size: 22px;
     line-height: 26px;
@@ -9192,4 +9237,10 @@ input::-webkit-inner-spin-button {
 
 .gl__header .scroll__link:hover {
     color: #ffffff;
+}
+
+.product__img {
+    display: block;
+    width: 180px!important;
+    margin: auto;
 }
