@@ -14,33 +14,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
         <!-- Javascript -->
         <script src="./js/jquery.min.js"></script>
-        <!--<script src="./js/phone-codes.js"></script>-->
-        <!--<script src="./js/jquery.mask.min.js"></script>-->
-        <!--<script src="./js/common_new.js"></script>-->
     </head>
     <body>
 
         <div class="container">
             <div class="block1">
-                <div class="top-line">
-                    <div class="wrapper">
-                        <div class="logo"><img src="./img/logo.png" alt="logo"></div>
-                        <div class="link"><a href="#reviews" class="scrollToOrder">Отзывы</a></div>
-                    </div>
-                </div>
+                <header class="gl__header" role="banner">
+                    <a href="#link-to" class="logo__brand">
+                        <img src="./img/logo.png" class="logo-img" alt="Diabetin">
+                    </a>
+                    <a href="#reviews" class="scroll__link scrollToOrder">Komentari</a>
+                </header>
+
                 <div class="wrapper">
-                    <div class="title">Избавьтесь от диабета на клеточном уровне</div>
-                    <div class="subtitle">благодаря полностью натуральному средству — Dialist</div>
+                    <div class="title">UKLONITE DIJABETES NA ĆELIJSKOM NIVOU</div>
+                    <div class="subtitle">zahvaljujući potpuno prirodnom leku - Dialist</div>
                     <div class="left-block">
-                        <div class="ltitle">Dialist помогает восстановить:</div>
+                        <div class="ltitle">Dialist pomaže da se oporavi:</div>
                         <div class="item-block">
-                            <div class="item"><span class="bold">Чувствительность к инсулину,</span> растворяя жировые отложения
-                                на органах
-                            </div>
-                            <div class="item"><span class="bold">Функции и состояния органов,</span> пострадавших от повышенного
-                                уровня глюкозы в крови
-                            </div>
-                            <div class="item"><span class="bold">Синтез гормона инсулина</span> в течение 30 дней</div>
+                            <div class="item"><span class="bold">Osetljivost na insulin </span>  rastvaranjem telesne masti</div>
+                            <div class="item"><span class="bold">Funkcija i stanje organa </span> pogođenih povišenim nivoom glukoze u krvi</div>
+                            <div class="item"><span class="bold">Sinteza hormona insulina </span> u roku od 30 dana</div>
                         </div>
                         <div class="product">
                             <img src="./img/product-1.png" alt="">
@@ -48,38 +42,37 @@
                     </div>
                     <div class="right-block">
                         <div class="form-block">
-                            <div class="ftitle">Успейте заказать
-                                <br>по специальной цене!
+                            <div class="ftitle">Požurite da naručite
+                                <br>po posebnoj ceni!
                             </div>
                             <div class="price-block">
-                                <div class="price old">Только сегодня:
-                                    <font class="money x_price_previous endStockDate nowdate">11 Августа</font>
+                                <div class="price old">Samo danas:
+                                    <font class="money x_price_previous endStockDate nowdate"></font>
                                 </div>
-                                <div class="price new">Цена:
-                                    <span class="strw_price js_new_price">1</span>
-                                    <span class="strw_currency js_curs"> грн.</span>
-                                    <span>*</span>
+                                <div class="price new">Cena sa popustom:
+                                    <span class="strw_price js_new_price">3680</span>
+                                    <span class="strw_currency js_curs">RSD</span>
+                                    <span></span>
                                 </div>
                             </div>
                             <form method="post" action="" class="x_order_form">
                                 <div class="inp-line">
                                     <div class="x_country_select">
                                         <select name="country" class="country" id="country">
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="UA">Украина</option>
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="RS">Сербия</option>
+                                            <option value="RS" selected="">Srbija</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="inp-line">
-                                    <input type="text" name="fio" placeholder="Имя">
+                                    <input type="text" name="fio" placeholder="Ime i Prezime">
                                 </div>
                                 <div class="inp-line">
-                                    <input type="tel" name="phone" class="only_number" placeholder="Телефон">
+                                    <input type="tel" name="phone" class="only_number" placeholder="Broj telefona">
                                 </div>
                                 <div class="button-block">
-                                    <button type="submit" class="js_submit">ЗАКАЗАТЬ СЕЙЧАС</button>
+                                    <button type="submit" class="js_submit">PORUČITE ODMAH</button>
                                 </div>
-                                <span class="primrub" style="width:100%;text-align:center;display:block">*при заказе полного курса</span>
+                                <span class="primrub" style="width:100%;text-align:center;display:block">* prilikom naručivanja kompletne kure</span>
                                 <style>
                                     .pl_field_address_info {
                                     opacity: 0;
@@ -93,105 +86,91 @@
                                 <input type="hidden" name="added_country" value="UA">
                                 <input type="hidden" name="time_zone" value="2">
                             </form>
-                            <div class="textline"> Ваши данные под защитой</div>
+                            <div class="textline">Vaši podaci su zaštićeni!</div>
                         </div>
-                        <div class="textline">Количество товара по акции ограничено!
-                            <br>Осталось: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> шт.</span>
+                        <div class="textline">Broj proizvoda na promociji je ograničen!
+                            <br>Preostalo: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> kom.</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="block2">
                 <div class="wrapper">
-                    <div class="title">Что будет, если не бороться с сахарным диабетом</div>
+                    <div class="title">ŠTA SE DOGAĐA AKO SE NE SUPROTSTAVITE DIJABETESU</div>
                     <div class="item-block">
                         <div class="item">
                             <div class="iimage"><img src="./img/image-1.png" alt=""></div>
-                            <div class="itext">Диабетическая
-                                <br>кома
+                            <div class="itext">DIJABETIČKA
+                                <br>KOMA
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-2.png" alt=""></div>
-                            <div class="itext">Атеросклероз</div>
+                            <div class="itext">ATEROSKLEROZA</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-3.png" alt=""></div>
-                            <div class="itext">Почечная недостаточность</div>
+                            <div class="itext">OTKAZIVANJE BUBREGA</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-4.png" alt=""></div>
-                            <div class="itext">Гангрена</div>
+                            <div class="itext">GANGRENA</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-5.png" alt=""></div>
-                            <div class="itext">Поражение головного мозга</div>
+                            <div class="itext">OŠTEĆENJE MOZGA</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-6.png" alt=""></div>
-                            <div class="itext">Катаракта
-                                <br>и слепота
+                            <div class="itext">KATARAKTA
+                                <br>I SLEPILO
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-7.png" alt=""></div>
-                            <div class="itext">Диабетическая
-                                <br>стопа
+                            <div class="itext">DIJABETIČNO
+                                <br>STOPALO
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/image-8.png" alt=""></div>
-                            <div class="itext">Инфаркт</div>
+                            <div class="itext">INFARKT</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="block3">
                 <div class="wrapper">
-                    <div class="title">Dialist – борьба с сахарным диабетом II типа на клеточном уровне</div>
+                    <div class="title">DIALIST - BORBA PROTIV DIJABETESA TIPA 2 NA NIVOU ĆELIJA</div>
                     <div class="item-block">
-                        <div class="ititle">Вот как он работает:</div>
+                        <div class="ititle">EVO KAKO DELUJE:</div>
                         <div class="item">
                             <div class="iimage"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAB5CAMAAACtFZd9AAAAsVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+3mHKcAAAAOnRSTlMA+uEE9PcVDOXc17eKGQnvWEjryMKogDLSzJCEeR0GcGhjRBLnfV8pIw/FmlOxlXRMOLyqnmwtraM+zTv3SQAABCxJREFUaN7tmOlu2kAUhb1h8ALGGBx2Y8JSoGFLWHLe/8E6d4AECo5mPFWlVjl/giLxaXS4u/atb/3L6jlO709wZi7gztQ5/TqY6n1lUANcDVXOGGeN1Tg/8aGfKpynwieo8JSf82zgSsZzbpCHG3nKRisaPsSdhnk4dukeVLJzgF7wQC/ynBQPlUqnvPUYZPUUfnmVGKgiU1UZTrGUDSoVJUAdfKGOOKdsfQWyysKgNr5UWzjpC1+DCqJloAumpZFN6gqCXACOdsgGuYJlEUw7rYFsiRXLFZhsbYlsrYQbUES8DAk3pzlZrWnvyNZcCNQ8hYoZZIOaQiDq0W/s7yIbVBcCvZ7fvs8GvQqBYgB6hX04ZoJiIVB4qTrlTJdCsWJU4L8/0zor2QRL0uvHzDDIbxFp+NnCUh1Q6JMRD7oKfdw495xIfJoBJ/E3VcZBvpTl8kEqhSfzU++m9PqauMw6uLZr8zSRGldRbUrNxE2cFHj+OF7Or9JsJjmsRXioSHpsqzzM2UVFk1d498s7oZZL5qR1jWlNTC23psnBtQDLPSRT7Vv/h3YGjM7sD3BAqg1MVZCB0npJiTxUBPFJaUPhf/ih+KIWAdIRoPsqVk0Y4K3MqpevA6NUgVQNAKvLSsuPF8rq9/wk+40BDOqBwyY1PAWrnupU2/es6AxqQKFTVFjpDUBfPrPy3NaB0iQ/qdK1gCAxWfnyyKpNflSZrHJDqs8ujZg9RatemNfmjqyKVa3yZxerqmpWUVieoypSserIw/ISVcdyftQm4l6fo8pKTIX8G5HXlXMCthSaWJEABnk9rQOWguknr+c0jiW64imMh+Vixjwr0TKtIDOxwOowe50DDNTOoN5ps+8Z0N8Ve4wOHE1tGsAoqpGeDL5mVWn9U5MdAQltErrqTFSMiFEuqB9W7RG2fGzvKYLIoI1m6zcb3r5TN9y4L0lyyG8PxkexSVv5znVj1Pi79ifTuiPa917jlnScvgNTzQZWHFNjmNHYZktJhFpRzm6+Q7rwtArHuGnlshSu5LKOjywLFCYl6qTh1SnHMCVnn/h8F9eP+6v/DwC5WqXDP+1p9fJtr6hhLgUK+CktpKpyt13u5UCdy8LeuHlTT5dLZuNcIocOzVL9m/tSUJEK7fOVsD8YAUZqXoeYzOjSxNuHv6sa4Hxuay62EqD69Z24GAeAkZxjOpGqCt7t2cr2af9r/+CLs46uOGiB0W9J0y5Q8g+53Y44KAZ+Lz1ljnJWdkjVSlQ/+Q3kIUpv6FjIpP/u0QjkW7K36GZGTj3HNSJthWtuknlKKyYGI3l98bv/KGsj6E9ciSkjBGoTM/swVBPvSTTm+uvePcWerlsIJKaAFkhW01t0dtVhdTBuH73ICUCSq91hI8i6RcaapPapf4gc6/TtUnN7WHQG66ey9q2/ql9yq1VlRTDN6gAAAABJRU5ErkJggg==" alt=""></div>
                             <div class="itext">
-                                <div class="ttitle">РАСТИТЕЛЬНЫЙ СОСТАВ</div>
+                                <div class="ttitle">SASTAV BILJAKA</div>
                                 <div class="tline"><img src="./img/line-1.png" alt=""></div>
-                                <div class="ttext">помогает восстанавливать функции поджелудочной и чувствительность к
-                                    инсулину.
-                                </div>
-                                <div class="ttext"><span class="bold">В основе состава:</span> топинамбур(земляная груша), фасоль, черника обыкновенная, олива, чай зеленый, стевия, мята перечная, ромашка, зверобой.
-                                </div>
-                                <div class="ttitle">Форма выпуска</div>
-                                <div class="ttext">
-                                    в сухом виде вещества защищены от внешнего воздействия и компоненты идеально сохраняются на
-                                    длительный срок.
-                                </div>
-                                <!--<div class="ttext"><span class="bold">В основе состава:</span> семена амаранта, черный тмин, рейши</div>-->
-                                <div class="textline">Взрослым принимать по 1 капсуле 2-3 раза в день за 30 минут до или после еды.
-                                </div>
+                                <div class="ttext">pomaže u obnavljanju funkcije pankreasa i osetljivosti na insulin.</div>
+                                <div class="ttext"><span class="bold">U srcu kompozicije: </span> topinambur (zemljana kruška), pasulj, obične borovnice, masline, zeleni čaj, stevija, pepermint, kamilica, kantarion.</div>
+                                <div class="ttitle">OBRAZAC ZA ODRICANJE OD ODGOVORNOSTI</div>
+                                <div class="ttext">u suvom obliku supstance su zaštićene od spoljnih uticaja, a komponente su savršeno uskladištene na duže vreme.</div>
+                                <div class="textline">Odrasli uzimaju 1 kapsulu 2-3 puta dnevno 30 minuta pre ili posle obroka.</div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABcCAMAAAAhz6naAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAO3RSTlMA/Ar3yQ28AvTw7NsR6bZlLgbifzPNrYhDNiQfGuXCpHZgSDop0bGpnoyDcW5TFd/XkltYTj+alpFqegL9TKYAAANLSURBVFjDrZnneuowDIbJYIUkzFBoWS2rZZfR9d3/fR3FpyGlzfB6f0U4fNiyLMkPBT62Xc/wSptiQRNuCf9xHvUINm1ceW7qUFyBOPgBkxxrECxWAeOTHmY+iC91xS3JfBQYd/RoNZQV2yQz/X5+pueSsuIHqQwiD+zJeFJVfCGR60pPZNiqimsS2V6tgCzVqOyRxurGch4Uo8cA5rHZDddtqkmGZ3B2tXZeuN9qJ7xOEq+x+WSQHdyrHpqKe/sLqK6bivHT/jlpA0StLq/5QApO8ef2DxHS2kjv0PPNJIndGAxvIql5T5Osujcf9UtgDE9ykm9skrdMF2AsXVlPVv98szFmW7TvyE5y8vfjGVu7dZL0ZCspWj4tsBQvTui0c9JAowa5dHQJC2HiyM4OZ3kWl6SpOOXEETN0ZqUhdRSnyUNmOMuDKVMS0zZgt2fpSZAZgLu0wb4BGKJhOSDF98wSPJKY40t6b1QTL7tPANYZbhaf5IaFeDpzGu8LKS4BZFXVIzsCApQdoJbZZXpAxRR041vKWNy4CSQhVvgvmW90AHTFslkt/+RXmkL7suFoCy8i3dTQ5HB1m1PQPACo575lAH5s5m5jUM59zQY8zvzNmVleAXB1WO6eJbJ8HgEceUNxzhMWDc5fXnNfYop8MT612D5z4fBcJNyWwGUwAFq5L/lhmePtukeAk/fOl1Ap9gEr72AZIh0IW1BOxqmKJWZSrGQX1HBXAjMy1f34UAPt3UCsNzpkDPeHwg2SlXX7Lq8tyPCeWjRsyFFPOXk+ZOknLLffrkEaw4wjZdbp9Y5fY7sKFYJoW8cOdBClR/MN2piyPGlDG0NW3sYgdC66B42wSliCPnwWNQb0cYlqrC5GUR+gMXQ0u3EZJUldVL77fg+62MRpVw+jqBuEJpxBQa+i0SMtfau+vTEOoUx8qU2MR/UCuII6H78u4sqsEm5TKlinxHYpZg4xWp2EhumHiDVpLiBCd5d4+2p/h5D3/kCWLZAc6qltU+M4mTz2y8xwuSX9e9575YLPg9sCP5P84lNtFwsidIIcB67cgiDlTRWp7CekJ87upZIc0YtzWfr/hPrI+O295VHxf033vOrankNS3nzxWu9wzO4f38FnEpwp8I0AAAAASUVORK5CYII=" alt=""></div>
                             <div class="itext">
-                                <div class="ttitle">Попадая в желудок</div>
+                                <div class="ttitle">ULAZAK U ŽELUDAC</div>
                                 <div class="tline"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArYAAAABAQMAAAARnX9LAAAAA1BMVEX///+nxBvIAAAAC0lEQVQI12OgEQAAAFgAAXCFyT4AAAAASUVORK5CYII=" alt=""></div>
-                                <div class="ttext">в растворенном виде активные компоненты отлично усваиваются, сохраняя
-                                    полезные свойства.
-                                </div>
-                                <div class="ttext">большинство препаратов от диабета теряют свои свойства, попадая в желудок. В
-                                    то время как Dialist успешно сохраняет их переходя в активную формулу в тонком кишечнике.
-                                </div>
+                                <div class="ttext">u rastvorenom obliku, aktivni sastojci se dobro apsorbuju, zadržavajući korisna svojstva.</div>
+                                <div class="ttext">većina lekova za dijabetes gubi svojstva kada uđe u želudac. Dok ih Dialist uspešno održava prelazeći u aktivnu formulu u tankom crevu.</div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-4.png" alt=""></div>
                             <div class="itext">
-                                <div class="ttitle">Попадая в тонкий кишечник</div>
+                                <div class="ttitle">ULAZAK U TANKO CREVO</div>
                                 <div class="tline"><img src="./img/line-3.png" alt=""></div>
-                                <div class="ttext">активные компоненты взаимодействуют с ферментами кишечника и создают
-                                    активную, усваиваемую на клеточном уровне формулу.
-                                </div>
+                                <div class="ttext">aktivni sastojci stupaju u interakciju sa crevnim enzimima i stvaraju aktivnu formulu koja se asimiliše na ćelijskom nivou.</div>
                             </div>
                         </div>
                     </div>
@@ -199,90 +178,74 @@
             </div>
             <div class="block4">
                 <div class="wrapper">
-                    <div class="title">Активная формула Dialist</div>
-                    <div class="subtitle">борется с диабетом 2 типа на клеточном уровне</div>
+                    <div class="title">AKTIVNA FORMULA DIALIST</div>
+                    <div class="subtitle">bori se protiv dijabetesa tipa 2 na ćelijskom nivou</div>
                     <div class="item-block">
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-5.png" alt=""></div>
-                            <div class="itext"><span class="bold">Помогает восстановить естественный синтез инсулина</span> в
-                                течение 30 дней после начала применения
-                            </div>
+                            <div class="itext"><span class="bold">Pomaže u obnovi prirodne sinteze insulina </span> u roku od 30 dana od početka upotrebe</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-6.png" alt=""></div>
-                            <div class="itext"><span class="bold">Способствует возвращению чувствительности к инсулину,</span>
-                                растворяя жировые отложения на органах
-                            </div>
+                            <div class="itext"><span class="bold">Promoviše povraćaj osetljivosti na insulin </span> rastvaranjem telesne masti</div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-7.png" alt=""></div>
-                            <div class="itext"><span class="bold">Поддерживает процессы регенерации органов,</span> пострадавших
-                                от повышенного уровня глюкозы
-                            </div>
+                            <div class="itext"><span class="bold">Podržava regenerativne procese organa koji su </span> pogođeni visokim nivoom glukoze</div>
                         </div>
                     </div>
                     <div class="bottom-block">
                         <div class="left-image"><img src="./img/product-1.png" alt=""></div>
-                        <div class="right-text">При попадании в тонкий кишечник компоненты, активная среда и ферменты кишечника
-                            образуют полностью растворимую в клеточной сфере Активную формулу. Её действие направлено на клетки
-                            мишеней инсулина и бета-клетки поджелудочной железы.
-                        </div>
+                        <div class="right-text">Ulaskom u tanko crevo, komponente, aktivni medijum i crevni enzimi formiraju aktivnu formulu u potpunosti rastvorljivu u ćelijskoj sferi. Njegovo delovanje usmereno je na ciljne ćelije insulina i beta ćelije pankreasa.</div>
                     </div>
                 </div>
             </div>
             <div class="block5 block1">
                 <div class="wrapper">
-                    <div class="title">Избавьтесь от диабета с Dialist</div>
-                    <div class="subtitle">на клеточном уровне благодаря воздействию натуральных экстрактов растений</div>
+                    <div class="title">OSLOBODITE SE DIJABETESA SA DIALIST-OM</div>
+                    <div class="subtitle">na ćelijskom nivou zahvaljujući efektima prirodnih biljnih ekstrakata</div>
                     <div class="left-block">
-                        <div class="ltitle">Dialist помогает восстановить:</div>
+                        <div class="ltitle">Dialist pomaže da se oporavi:</div>
                         <div class="item-block">
-                            <div class="item"><span class="bold">Чувствительность к инсулину,</span> растворяя жировые отложения
-                                на органах
-                            </div>
-                            <div class="item"><span class="bold">Функции и состояния органов,</span> пострадавших от повышенного
-                                уровня глюкозы в крови
-                            </div>
-                            <div class="item"><span class="bold">Синтез гормона инсулина</span> в течение 30 дней</div>
+                            <div class="item"><span class="bold">Osetljivost na insulin </span>rastvaranjem telesne masti</div>
+                            <div class="item"><span class="bold">Funkcija i stanje organa </span> pogođenih povišenim nivoom glukoze u krvi</div>
+                            <div class="item"><span class="bold">Sinteza hormona insulina </span> u roku od 30 dana</div>
                         </div>
                         <div class="product"><img src="./img/product-1.png" alt=""></div>
                     </div>
                     <div class="right-block">
                         <div class="form-block">
-                            <div class="ftitle">Успейте заказать
-                                <br>по специальной цене!
+                            <div class="ftitle">Požurite da naručite
+                                <br>po posebnoj ceni!
                             </div>
                             <div class="price-block">
-                                <div class="price old">Только сегодня:
-                                    <font class="money x_price_previous endStockDate nowdate" daysint="">11 Августа</font>
+                                <div class="price old">Samo danas:
+                                    <font class="money x_price_previous endStockDate nowdate" daysint=""></font>
                                 </div>
-                                <div class="price new">Цена:
-                                    <span class="strw_price js_new_price">1</span>
-                                    <span class="strw_currency js_curs"> грн.</span>
-                                    <span>*</span>
+                                <div class="price new">Cena sa popustom:
+                                    <span class="strw_price js_new_price">3680</span>
+                                    <span class="strw_currency js_curs">RSD</span>
+                                    <span></span>
                                 </div>
                             </div>
                             <form method="post" action="" class="x_order_form">
                                 <div class="inp-line">
                                     <div class="x_country_select">
                                         <select name="country" class="country" id="country">
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="UA">Украина</option>
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="RS">Сербия</option>
+                                            <option value="RS" selected="">Srbije</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="inp-line">
-                                    <input type="text" name="fio" placeholder="Имя">
+                                    <input type="text" name="fio" placeholder="Ime i Prezime">
                                 </div>
                                 <div class="inp-line">
-                                    <input type="tel" name="phone" class="only_number" placeholder="Телефон">
+                                    <input type="tel" name="phone" class="only_number" placeholder="Broj telefona">
                                 </div>
                                 <div class="button-block">
-                                    <button type="submit" class="js_submit">ЗАКАЗАТЬ
-                                    СЕЙЧАС
-                                    </button>
+                                    <button type="submit" class="js_submit">PORUČITE ODMAH</button>
                                 </div>
-                                <span class="primrub" style="width:100%;text-align:center;display:block">*при заказе полного курса</span>
+                                <span class="primrub" style="width:100%;text-align:center;display:block">* prilikom naručivanja kompletne kure</span>
                                 <style>
                                     .pl_field_address_info {
                                     opacity: 0;
@@ -296,59 +259,45 @@
                                 <input type="hidden" name="added_country" value="UA">
                                 <input type="hidden" name="time_zone" value="2">
                             </form>
-                            <div class="textline"> Ваши данные под защитой</div>
+                            <div class="textline"> Vaši podaci su zaštićeni!</div>
                         </div>
-                        <div class="textline">Количество товара по акции ограничено!
-                            <br>Осталось: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> шт.</span>
+                        <div class="textline">Broj proizvoda na promociji je ograničen!
+                            <br>Preostalo: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> kom.</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="block6">
                 <div class="wrapper">
-                    <div class="title">Врач-эндокринолог об инновационности препарата Dialist</div>
+                    <div class="title">DOKTOR-ENDOKRINOLOG O INOVACIJI PREPARATA DIALIST</div>
                     <div class="left-image"><img src="./img/doctor.png" alt=""></div>
                     <div class="right-text">
                         <div class="text">
-                            <div class="line red">Бороться с сахарным диабетом можно только на клеточном уровне.</div>
-                            <div class="line">Для этого реакция должна происходить в тонком кишечнике при взаимодействии с его
-                                ферментами. Но традиционные препараты усваиваются в желудке и, не доходя до кишечника, теряют
-                                эффективность.
-                            </div>
-                            <div class="line">Dialist — инновационный препарат, потому что решил эту проблему. Благодаря форме
-                                выпуска и способу приема, компоненты не растворяются в желудочном соке и начинают реакцию только
-                                при попадании в тонкий кишечник. Там создается формула, которая усваивается на клеточном уровне
-                                и направлена на клетки-мишени инсулина и бета-клетки поджелудочной железы, избавляя от диабета.
-                                Также препарат восстанавливает функции и состояние органов, пострадавших от повышенного уровня
-                                глюкозы в крови.
-                            </div>
-                            <div class="line">Dialist удобно применять, ведь больше не нужно делать болезненные инъекции или
-                                ставить капельницы – достаточно принимать средство два раза в день. <span class="bold">Сейчас я рекомендую Dialist всем своим пациентам.</span>
+                            <div class="line red">Sa dijabetesom se možete boriti samo na ćelijskom nivou.</div>
+                            <div class="line">Zbog toga se reakcija mora odvijati u tankom crevu kada se vrši interakcija sa njegovim enzimima. Ali tradicionalni lekovi se apsorbuju u želucu i, pre nego što dođu do creva, gube svoju efikasnost.</div>
+                            <div class="line">Dialist je inovativan lek jer je rešio ovaj problem. Zbog oblika oslobađanja i načina primene, komponente se ne rastvaraju u želučanom soku i započinju reakciju tek kada uđu u tanko crevo. Tamo se stvara formula koja se apsorbuje na ćelijskom nivou i cilja ciljne ćelije insulina i beta ćelije pankreasa, olakšavajući dijabetes. Takođe, lek vraća funkcije i stanje organa pogođenih visokim nivoom glukoze u krvi.</div>
+                            <div class="line">Dialist je pogodan za upotrebu, jer više ne morate da primate bolne injekcije ili koristite infuziju - dovoljno je uzimati proizvod dva puta dnevno. <span class="bold">Sada preporučujem Dialist svim svojim pacijentima.</span>
                             </div>
                         </div>
-                        <div class="name">Глеб Борисович Самойлов,</div>
-                        <div class="position">врач–эндокринолог высшей категории</div>
+                        <div class="name">Gleb Borisovič Samoilov,</div>
+                        <div class="position">lekar-endokrinolog najviše kategorije</div>
                         <div class="sign"><img src="./img/sign.png" alt=""></div>
                     </div>
                     <div class="bottom-block">
                         <div class="item">
-                            <div class="ititle">Способ применения:</div>
+                            <div class="ititle">NAČIN PRIMENE:</div>
                             <div class="form-block">
-                                <div class="line"><span class="bold">Взрослым </span> принимать по 1-2 капсулы
-                                </div>
-                                <div class="line"><span class="bold"> Принимать </span>препарат за 30 минут до или после еды запивая водой.
-                                </div>
-                                <div class="line"><span class="bold">Продолжительность</span>  курса 30 дней.
+                                <div class="line"><span class="bold">Odrasli </span> uzimaju 1-2 kapsule</div>
+                                <div class="line"><span class="bold">Uzimajte </span> preparat 30 minuta pre ili posle obroka sa vodom.</div>
+                                <div class="line"><span class="bold">Trajanje </span> kursa je 30 dana.
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="ititle">КАК ПОЛУЧИТЬ Dialist:</div>
+                            <div class="ititle">KAKO DOĆI DO DIALIST-A:</div>
                             <div class="form-block">
-                                <div class="textline">Получить оригинальный Dialist вы можете на нашем сайте.</div>
-                                <div class="textline">Наша компания — сертифицированный представитель производителя с
-                                    эксклюзивным разрешением на реализацию препарата на территории Украине.
-                                </div>
+                                <div class="textline">Originalni Dialist možete dobiti na našoj veb stranici.</div>
+                                <div class="textline">Naša kompanija je sertifikovani predstavnik proizvođača sa ekskluzivnom dozvolom za prodaju leka na teritoriji Ukrajine.</div>
                             </div>
                         </div>
                     </div>
@@ -357,83 +306,60 @@
             </div>
             <div class="block7">
                 <div class="wrapper">
-                    <div class="title">Как заказать Dialist на нашем сайте</div>
+                    <div class="title">KAKO NARUČITI DIALIST NA NAŠEM SAJTU</div>
                     <div class="item-block">
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-9.png" alt=""></div>
-                            <div class="itext">Заполните форму заказа</div>
+                            <div class="itext">Popunite obrazac za narudžbinu</div>
                         </div>
                         <div class="dots"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAUBAMAAAAKKrydAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMZAA8JCHvehwQAAACTSURBVCjPzZPLEcMgDETXOAVoTQrAkwZMKkj6byqxhx08whfd/E7wJP4CJN/AiydyQaoXwkB+8OfRQ0/sfEdh4IKDlaIc/cRBGFqzBxdotBeGjIZ2ubX+TC8MpuSpxSDohUHjNFOGqF5sKGom7VCsXii1L2sQkxe4S3LkgKGrizxK6LlDhRQrURX/7Gu9jsJC3+oHJb8hiHJn4kQAAAAASUVORK5CYII=" alt=""></div>
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-10.png" alt=""></div>
-                            <div class="itext">Дождитесь звонка оператора</div>
+                            <div class="itext">Sačekajte poziv operatera</div>
                         </div>
                         <div class="dots"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAUBAMAAAAKKrydAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMZAA8JCHvehwQAAACTSURBVCjPzZPLEcMgDETXOAVoTQrAkwZMKkj6byqxhx08whfd/E7wJP4CJN/AiydyQaoXwkB+8OfRQ0/sfEdh4IKDlaIc/cRBGFqzBxdotBeGjIZ2ubX+TC8MpuSpxSDohUHjNFOGqF5sKGom7VCsXii1L2sQkxe4S3LkgKGrizxK6LlDhRQrURX/7Gu9jsJC3+oHJb8hiHJn4kQAAAAASUVORK5CYII=" alt=""></div>
                         <div class="item">
                             <div class="iimage"><img src="./img/icon-11.png" alt=""></div>
-                            <div class="itext">Получите заказ на почте</div>
+                            <div class="itext">Primite narudžbinu poštom</div>
                         </div>
                     </div>
                     <div class="textline">
-                        <br><!--<br>Никакой предоплаты не требуется!
-                            <br>Вы оплачиваете Ваш заказ только при получении.-->
+                        <br />
                     </div>
-                    <div class="map-block">Доставка осуществляется
-                        <br>по всей Украине
+                    <div class="map-block">Dostava se vrši
+                        <br>širom Srbije
                     </div>
                 </div>
             </div>
             <div class="block8">
                 <div class="wrapper">
-                    <div class="title" id="reviews">Отзывы о препарате Dialist:</div>
+                    <div class="title" id="reviews">KOMENTARI O PREPARATU DIALIST:</div>
                     <div class="item-block">
                         <div class="item">
                             <div class="iimage"><img src="./img/author-1.png" alt=""></div>
                             <div class="itext">
-                                <div class="name">Валентина</div>
-                                <div class="age">32 года</div>
-                                <div class="ititle">«Чувствую себя в норме»</div>
-                                <div class="text">Болею сахарным диабетом 2 типа уже около года. Врачи подобрали мне инсулин, и
-                                    какое-то время я чувствовала себя хорошо. Но потом началось. Постоянная слабость, чувство
-                                    разбитости, часто не хватало воздуха... хоть и сахар был в норме. В поликлинике сказали, что
-                                    скорее всего дело в инсулине и начали подбирать другие препараты, более дорогие. Но к этому
-                                    моменту я уже и сама занялась этим вопросом - зарегистрировалась на нескольких форумах,
-                                    почитала статьи и нашла "Диалист". Меня заинтриговало то, что они по-новому подходят к
-                                    лечению диабета, и решила попробовать. Сейчас только этим средством и пользуюсь, никакого
-                                    инсулина. И чувствую себя в норме.
-                                </div>
+                                <div class="name">Valentina</div>
+                                <div class="age">32 god.</div>
+                                <div class="ititle">"Osećam se dobro"</div>
+                                <div class="text">Patim od dijabetesa tipa 2 otprilike godinu dana. Lekari su mi dali insulin i neko vreme sam se osećala dobro. Ali onda je krenulo. Stalna malaksalost osećaj slabosti, često nije bilo dovoljno vazduha ... iako je šećer bio normalan. Poliklinika je rekla da je najverovatnije stvar u insulinu i počela je da bira druge lekove, skuplje. Ali u to vreme već sam se pozabavila ovim pitanjem - registrovala sam se na nekoliko foruma, čitala članke i pronašala „Dialist“. Zaintrigirao me novi pristup lečenju dijabetesa i odlučila sam da pokušam. Sada koristim samo ovaj lek, bez insulina. I osećam se dobro.</div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/author-2.png" alt=""></div>
                             <div class="itext">
-                                <div class="name">Илья</div>
-                                <div class="age">27 лет</div>
-                                <div class="ititle">«Дорогие таблетки больше не нужны»</div>
-                                <div class="text">Мне всего 27, с самого детства я довольно тучный. Врачи давно мне советовали
-                                    похудеть, говорили, что рано или поздно заработаю диабет, но я только отмахивался. Примерно
-                                    так три года назад мне и поставили диагноз сахарный диабет. Для меня начались настоящие
-                                    мучения – нужно было постоянно следить за уровнем сахара, нервничать каждый раз, когда он
-                                    скакал, и выкидывать кучу денег на дорогие таблетки. Хорошо, что знакомый врач посоветовал
-                                    попробовать препарат Dialist. Теперь только им и спасаюсь. И дорогие таблетки больше
-                                    не нужны.
-                                </div>
+                                <div class="name">Ilija</div>
+                                <div class="age">27 god.</div>
+                                <div class="ititle">"SKUPE TABLETE VIŠE NISU POTREBNE"</div>
+                                <div class="text">Imam samo 27 godina i od detinjstva sam prilično gojazan. Lekari su me dugo savetovali da smršam, govorili su da ću pre ili kasnije razviti dijabetes, ali samo sam ih ignorisao. Otprilike tako mi je pre tri godine dijagnostifikovan dijabetes. Za mene su počele prave muke - morao sam neprestano da nadgledam nivo šećera, unervozio se svaki put kad skoči i bacio puno novca na skupe tablete. Dobro je što mi je lekar koga poznajem savetovao da probam Dialist. Samo oni su me spasli. A skupe tablete više nisu potrebne.</div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="iimage"><img src="./img/author-3.png" alt=""></div>
                             <div class="itext">
-                                <div class="name">Светлана</div>
-                                <div class="age">47 лет</div>
-                                <div class="ititle">«Dialist реально помог»</div>
-                                <div class="text">Моя дочь была абсолютно здоровым ребенком. Год назад во время экзамена у нее
-                                    случился приступ и ее отвезли в больницу. Тогда мы и узнали, что такое сахарный диабет. Для
-                                    молодой девушки очень тяжело жить с таким диагнозом – инъекции инсулина несколько раз в
-                                    день, строгая диета, многого нельзя… было больно на нее смотреть. В интернете прочитала про
-                                    современный препарат Dialist. Рискнули попробовать и он реально помог. Пили его полгода и,
-                                    слава богу, новых приступов пока не было. Очень надеюсь, что мы наконец–то смогли
-                                    вылечиться.
-                                </div>
+                                <div class="name">Svetlana</div>
+                                <div class="age">47 god.</div>
+                                <div class="ititle">"DIALIST STVARNO POMAŽE"</div>
+                                <div class="text">Moja ćerka je bila potpuno zdravo dete. Pre godinu dana, tokom ispita, imala je napad i odvedena je u bolnicu. Tada smo saznali šta je dijabetes. Mladoj devojci je veoma teško da živi sa takvom dijagnozom - injekcije insulina nekoliko puta dnevno, stroga dijeta, mnogo toga nije mogla ... bilo je bolno gledati je. Čitala sam o savremenom leku Dialist na Internetu. Iskoristili smo priliku da probamo i zaista je pomoglo. Pila ga je šest meseci i, hvala Bogu, još nije bilo novih napada. Zaista se nadam da će konačno uspeti da se oporavi.</div>
                             </div>
                         </div>
                     </div>
@@ -441,68 +367,63 @@
             </div>
             <div class="block9 block5 block1">
                 <div class="wrapper">
-                    <div class="title">Победите диабет с Dialist</div>
-                    <div class="subtitle">на клеточном уровне благодаря воздействию натуральных экстрактов</div>
+                    <div class="title">POBEDITE DIJABETES SA DIALIST-OM</div>
+                    <div class="subtitle">na ćelijskom nivou zahvaljujući efektima prirodnih ekstrakata</div>
                     <div class="left-block">
-                        <div class="ltitle">Dialist помогает восстановить:</div>
+                        <div class="ltitle">Dialist pomaže da se oporavi:</div>
                         <div class="item-block">
-                            <div class="item"><span class="bold">Чувствительность к инсулину,</span> растворяя жировые отложения
-                                на органах
-                            </div>
-                            <div class="item"><span class="bold">Функции и состояния органов,</span> пострадавших от повышенного
-                                уровня глюкозы в крови
-                            </div>
-                            <div class="item"><span class="bold">Синтез гормона инсулина</span> в течение 30 дней</div>
+                            <div class="item"><span class="bold">Osetljivost na insulin </span>  rastvaranjem telesne masti</div>
+                            <div class="item"><span class="bold">Funkcija i stanje organa </span> pogođenih povišenim nivoom glukoze u krvi</div>
+                            <div class="item"><span class="bold">Sinteza hormona insulina </span> u roku od 30 dana</div>
                         </div>
                         <div class="timer" style="display:none">
-                            <div class="timer-text">До конца акции осталось:</div>
+                            <div class="timer-text">Do kraja promocije ostaje:</div>
                             <div class="timer-block">
                                 <span class="hours item">00</span>
                                 <span class="mins item">00</span>
                                 <span class="secs item">00</span>
                             </div>
                             <div class="bottom-line">
-                                <div class="h-text">часов</div>
-                                <div class="m-text">минут</div>
-                                <div class="s-text">секунд</div>
+                                <div class="h-text">sati</div>
+                                <div class="m-text">minunta</div>
+                                <div class="s-text">sekundi</div>
                             </div>
                         </div>
                         <div class="product"><img src="./img/product-1.png" alt=""></div>
                     </div>
                     <div class="right-block" id="backCall">
                         <div class="form-block">
-                            <div class="ftitle">Успейте заказать
-                                <br>по специальной цене!
+                            <div class="ftitle">PORUČITE ODMAH
+                                <br>po posebnoj ceni!
                             </div>
                             <div class="price-block">
-                                <div class="price old">Только сегодня:
-                                    <font class="money x_price_previous endStockDate nowdate" daysint="">11 Августа</font>
+                                <div class="price old">Samo danas:
+                                    <font class="money x_price_previous endStockDate nowdate" daysint=""></font>
                                 </div>
-                                <div class="price new">Цена:
-                                    <span class="strw_price js_new_price">1</span>
-                                    <span class="strw_currency js_curs"> грн.</span>
-                                    <span>*</span>
+                                <div class="price new">Cena sa popustom:
+                                    <span class="strw_price js_new_price">3680</span>
+                                    <span class="strw_currency js_curs">RSD</span>
+                                    <span></span>
                                 </div>
                             </div>
                             <form method="post" action="" class="x_order_form">
                                 <div class="inp-line">
                                     <div class="x_country_select">
                                         <select name="country" class="country" id="country">
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="UA">Украина</option>
-                                            <option price1="1" price3="900" price2="50" pricecurrency=" грн." value="RS">Сербия</option>
+                                            <option value="RS" selected="">Srbija</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="inp-line">
-                                    <input type="text" name="fio" placeholder="Имя">
+                                    <input type="text" name="fio" placeholder="Ime i Prezime">
                                 </div>
                                 <div class="inp-line">
-                                    <input type="tel" name="phone" class="only_number" placeholder="Телефон">
+                                    <input type="tel" name="phone" class="only_number" placeholder="Broj telefona">
                                 </div>
                                 <div class="button-block">
-                                    <button type="submit" class="js_submit">ЗАКАЗАТЬ СЕЙЧАС</button>
+                                    <button type="submit" class="js_submit">PORUČITE ODMAH</button>
                                 </div>
-                                <span class="primrub" style="width:100%;text-align:center;display:block">*при заказе полного курса</span>
+                                <span class="primrub" style="width:100%;text-align:center;display:block">* prilikom naručivanja kompletne kure</span>
                                 <style>
                                     .pl_field_address_info {
                                     opacity: 0;
@@ -516,10 +437,10 @@
                                 <input type="hidden" name="added_country" value="UA">
                                 <input type="hidden" name="time_zone" value="2">
                             </form>
-                            <div class="textline"> Ваши данные под защитой</div>
+                            <div class="textline">Vaši podaci su zaštićeni</div>
                         </div>
-                        <div class="textline">Количество товара по акции ограничено!
-                            <br>Осталось: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> шт.</span>
+                        <div class="textline">Broj proizvoda za promociju je ograničen!
+                            <br>Preostalo: <span class="rleft"><font class="p_limit_left_text lastpack">60</font> kom.</span>
                         </div>
                     </div>
                 </div>
@@ -530,7 +451,7 @@
         <footer class="__footer ptb-30">
             <div class="contain">
                 <p class="copyright t-c"><strong>Copyright <script>document.write(new Date().getFullYear())</script>
-                        </script> &#169;MEZATONE. All Rights Reserved</strong></p>
+                &#169;MEZATONE. All Rights Reserved</strong></p>
                 <p class="t-uc t-c">
                     <a href="doc/terms.html" target="_blank">Uslovi Korišćenja</a>
                     <span class="sep"> | </span>
@@ -540,7 +461,7 @@
             </div>
         </footer>
 
-        <div class="modal_phone">
+        <div class="modal_phone" style="display: none">
             <div class="close-modal"></div>
             <div class="mod">
                 <div class="modal-dialog modal-window" role="document">
@@ -672,7 +593,7 @@
         </div>
         <!-- End modal_phone -->
         <!-- Begin modal_mouse -->
-        <div class="modal_mouse_out">
+        <div class="modal_mouse_out" style="display: none;">
             <div class="close-modal"></div>
             <div class="mod">
                 <div class="modal-dialog modal-window" role="document">
@@ -901,7 +822,7 @@
         <script type="text/javascript">
             d = new Date();
             p = new Date(d.getTime() - 0 * 86400000);
-            monthA = 'Января,Февраля,Марта,Апреля,Мая,Июня,Июля,Августа,сентября,октября,ноября,Декабря'.split(',');
+            monthA = 'januara,februara,marta,aprila,maja,juna,jula,avgusta,septembra,oktobra,novembra,decembra'.split(',');
             let today = (p.getDate() + ' ' + monthA[p.getMonth()]);
             var k = document.getElementsByClassName('nowdate'),
                 l = k.length;
@@ -910,8 +831,8 @@
             }
             
         </script>
-        <div id="pp-overlay"></div>
-        <div id="pp-modal-offer">
+        <div id="pp-overlay" style="display: none;"></div>
+        <div id="pp-modal-offer" style="display: none;">
             <div id="pp-x">×</div>
             <h1>Политика конфиденциальности</h1>
             <h2>Конфиденциальность в использовании ваших личных данных</h2>
@@ -936,15 +857,6 @@
         </div>
         
         <script>
-            /*
-            $('.scrollToOrder').click(function(event) {
-                event.preventDefault();
-                $.scrollTo($('#reviews'), 1000);
-            });
-            */            
-
-
-
             $(document).ready(function() {
                 $('.scrollToOrder').click(function(e) {
                     e.preventDefault();
@@ -954,7 +866,6 @@
                     return false;
                 });
             });
-
         </script>
 
     </body>
